@@ -27,18 +27,34 @@ function Invoice() {
       <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 rounded">
         <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
           <tr>
-            <th className="px-6 py-3">Service</th>
-            <th className="px-6 py-3">Unit price</th>
-            <th className="px-6 py-3">Hours</th>
-            <th className="px-6 py-3">Total</th>
+            <th className="px-6 py-3">
+              <p>Service</p>
+            </th>
+            <th className="px-6 py-3">
+              <p>Unit price</p>
+            </th>
+            <th className="px-6 py-3">
+              <p>Hours</p>
+            </th>
+            <th className="px-6 py-3">
+              <p>Total</p>
+            </th>
           </tr>
         </thead>
         <tbody>
           <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-            <td className="px-6 py-3">Cleaning Services Feb 17</td>
-            <td className="px-6 py-3">40</td>
-            <td className="px-6 py-3">3</td>
-            <td className="px-6 py-3">120</td>
+            <td className="px-6 py-3">
+              <p>Cleaning Services Feb 17</p>
+            </td>
+            <td className="px-6 py-3">
+              <p>40</p>
+            </td>
+            <td className="px-6 py-3">
+              <p>3</p>
+            </td>
+            <td className="px-6 py-3">
+              <p>120</p>
+            </td>
           </tr>
         </tbody>
       </table>
