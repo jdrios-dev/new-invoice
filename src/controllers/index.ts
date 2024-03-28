@@ -1,3 +1,3 @@
-export { default as clientServices } from './clients.ts'
-export { default as ServiceServices } from './services.ts'
-export { default as invoiceServices } from './invoices.ts'
+export * from './clients.ts';
+export * from './services.ts';
+export * from './invoices.ts';
