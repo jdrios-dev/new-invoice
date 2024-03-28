@@ -1,3 +1,3 @@
-export * from './clients.ts';
-export * from './services.ts';
-export * from './invoices.ts';
+export * from './clients';
+export * from './services';
+export * from './invoices';
