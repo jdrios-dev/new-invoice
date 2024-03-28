@@ -14,7 +14,7 @@ const createService = (data: Service) => { }
 const deleteServiceById = (id: number) => { }
 const updateServiceById = (id: number) => { }
 
-export = {
+export {
     getServiceById,
     getServices,
     createService,

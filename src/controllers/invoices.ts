@@ -12,7 +12,7 @@ const createInvoice = (data: Invoice) => { }
 const deleteInvoiceById = (id: number) => { }
 const updateInvoiceById = (id: number) => { }
 
-export = {
+export {
     getInvoiceById,
     getInvoices,
     createInvoice,

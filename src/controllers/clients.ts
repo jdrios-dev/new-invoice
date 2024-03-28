@@ -11,7 +11,7 @@ const createClient = (data: Client) => { }
 const deleteClientById = (id: number) => { }
 const updateClientById = (id: number) => { }
 
-export = {
+export {
     getClientById,
     getClients,
     createClient,
